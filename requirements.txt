@@ -1,0 +1,15 @@
+numpy==2.4.3
+pandas==2.2.3
+scikit-learn==1.8.0
+scipy==1.17.1
+matplotlib==3.10.8
+tqdm==4.67.1
+Pillow==12.1.1
+opencv-python==4.13.0.92
+mediapipe==0.10.33
+filterpy==1.4.5
+onnx==1.20.0
+onnxruntime==1.23.2
+xgboost==3.2.0
+torch==2.10.0
+torchvision==0.25.0

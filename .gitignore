@@ -1,0 +1,38 @@
+# Python cache / build artifacts
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editor / notebook state
+.ipynb_checkpoints/
+.vscode/
+
+# Logs and local runtime output
+logs/
+*.log
+
+# Generated or local training data
+data/webcam_finetune/
+data/attention_labels_*.csv
+data/gaze_labels_*.csv
+
+# Raw datasets and extracted source data
+openEDS/
+bbox/
+cognitive_load_dataset.csv
+04 Eye Tracking Data/01 Eye Tracking Data (Pre-Processed)/
+04 Eye Tracking Data/02 Eye Tracking Data (Features Extracted)/
+05 ECG-GSR Data/01 ECG-GSR Data (Pre-Processed)/
+05 ECG-GSR Data/02 ECG-GSR (Features Extracted)/
+
+# Local model / calibration artifacts can be regenerated if needed
+saved_models/calibration.npy
+saved_models/calibration_screen.npy
+saved_models/calibration_meta.npz
